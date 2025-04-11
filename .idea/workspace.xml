@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce787cbb-356a-4cdb-a724-c5f50ee105f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/config/BatchConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/processor/UserItemProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/writer/UserItemWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/BatchCsvImportApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/BatchCsvImportApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/config/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/config/BatchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/controller/JobLauncherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/controller/JobLauncherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/processor/UserItemProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/processor/UserItemProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/scheduler/JobScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/scheduler/JobScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/writer/UserItemWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/writer/UserItemWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/batchcode/batch_csv_import/file.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BatchCsvImportApplication.executor": "Run",
+    "Application.BatchCsvImportApplication.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -66,5 +71,36 @@
       <updated>1744017497778</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/config/BatchConfig.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/config/BatchConfig.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/config/BatchConfig.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/processor/UserItemProcessor.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/scheduler/JobScheduler.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

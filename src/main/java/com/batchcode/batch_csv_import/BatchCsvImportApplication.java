@@ -12,5 +12,4 @@ public class BatchCsvImportApplication {
 		SpringApplication.run(BatchCsvImportApplication.class, args);
 		log.info("::::::::::::System is running fine::::::::");
 	}
-
 }
