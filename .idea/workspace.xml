@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce787cbb-356a-4cdb-a724-c5f50ee105f3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/scheduler/JobScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/scheduler/JobScheduler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
@@ -52,6 +52,26 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="BatchCsvImportApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.batchcode.batch_csv_import.BatchCsvImportApplication" />
+      <module name="batch-csv-import" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.batchcode.batch_csv_import.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BatchCsvImportApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,8 +108,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/scheduler/JobScheduler.java</url>
-          <line>17</line>
+          <line>20</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/batchcode/batch_csv_import/processor/UserItemProcessor.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
